@@ -5,6 +5,7 @@
 body{
 	font-family: Helvetica-Neue, sans-serif;
 	font-weight: lighter;
+	background-color: #E5E5E5;
 }
 
 #dis{
@@ -24,11 +25,7 @@ body{
 	font-weight: 600;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 600px){
-	body {
-		background-color: #E5E5E5;
-	}
-
+/*@media only screen and (min-width: 320px) and (max-width: 600px){*/
 	form {
 		margin-left: auto;
 		margin-right: auto;
@@ -59,5 +56,13 @@ body{
     		font-weight: lighter;
 		}
 
+	table {
+	    border-collapse: collapse;
+	}
 
-}
+	td, th {
+    	padding: 0.5rem;
+	}
+	
+
+/*}*/
