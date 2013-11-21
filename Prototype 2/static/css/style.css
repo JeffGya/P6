@@ -1,7 +1,63 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+body{
+	font-family: Helvetica-Neue, sans-serif;
+	font-weight: lighter;
+}
+
 #dis{
-	text-align:center;
-	height: 25px;
-	width: 250px;
+	text-align: center;
+	height: 1.5em;
+	width: 100%;
 	background-color:#46DAFF;
-	color:#000;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: .5em;
+}
+
+.red{
+	color: red;
+	font-weight: 600;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+	body {
+		background-color: #E5E5E5;
+	}
+
+	form {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10em;
+		text-align: center;
+		vertical-align: center;
+	}
+	input {
+		width: 15em;
+		font-size: 1em;
+		border: 0;
+	}
+
+		input[type="submit"]{
+			border: 0;
+		}
+
+		#submit{
+			margin-top: 1em;
+			width: 15em;
+			padding: 10px;
+			position: relative;
+			right: 2px;
+			border-radius: 10px;
+    		background: #9cf;
+    		color: white;
+    		font-size: 1em;
+    		font-weight: lighter;
+		}
+
+
 }
